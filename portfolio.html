@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reshma - Portfolio</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container">
+            <h1>Reshma A</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>An aspirant<span> DevOps Engineer</span> searching for DevOps and Cloud opportunities</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2><br>
+            <p>Hello! I'm Reshma A, a passionate and driven software developer with over two years of experience in the tech industry. I graduated with a Bachelor of Engineering (B.E) degree in Computer Science in the year 2020, achieving a commendable CGPA of 7.27.</p><br><br>
+<b>My Journey into DevOps:</b><br>
+
+<p>My journey into the world of DevOps began with a curiosity to bridge the gap between software development and IT operations. It was during my academic years that I realized the immense potential of DevOps in streamlining software delivery, enhancing collaboration, and ensuring the reliability and scalability of applications.
+
+Driven by this fascination, I embarked on a journey of self-discovery and skill acquisition. I dived deep into the world of DevOps, immersing myself in learning and hands-on exploration. I delved into a wide range of tools and technologies, including Docker, Kubernetes, Ansible, Terraform, Jenkins, Git, and AWS, among others.</p><br><br>
+<b>My Vision:</b><br>
+<p>My vision as a DevOps enthusiast is to contribute to the dynamic landscape of software development and operations by applying modern DevOps practices and principles. I believe that the synergy between development and operations is at the heart of successful software delivery. Through continuous learning and innovation, I aspire to play a vital role in optimizing processes, automating workflows, and ensuring the seamless deployment of applications.</p><br><br>
+<b>Why DevOps?</b><br>
+<p>DevOps, for me, is not just a set of tools and practices but a mindset that fosters collaboration, innovation, and agility. It's about breaking down silos, automating repetitive tasks, and delivering value to end-users faster and with higher quality. I am excited about the transformative power of DevOps and how it can reshape the software development landscape.
+
+In my spare time, I continue to explore new technologies, participate in open-source projects, and seek opportunities for growth and contribution within the DevOps community.
+
+Thank you for joining me on this journey, and I look forward to sharing my experiences and insights with you as I continue to explore and embrace the exciting world of DevOps.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Projects</h2>
+            <!-- Add your portfolio projects here -->
+            <div class="project">
+                
+                <h3>Implemented Three Tier Architecture — AWS</h3>
+                <p>Implemented a three tier Architecture that is highly available
+ And scalable using Terraform and deployed  the application
+ On Ec2  Instances using the User Data script.
+<br>
+ <i>AWS Components Involved:</i>
+ VPC, ASG, Route53, CDN, ELB, EC2, S3, NAT, API Gateway.</p>
+            </div>
+            <div class="project">
+                
+                <h3>Cloud Cost Optimization — AWS
+</h3>
+                <p>Used the combination of AWS cloud watch and Lambda functions
+ To decrease the cloud cost by 25 percent.
+<br>
+ <i>Implementation:</i>
+ Created lambda function in python, used the boto3 module to interact
+ With AWS service APIs and this lambda function is triggered by
+ Cloud Watch events.
+ This lambda function would watch for any unused EBS snapshots and
+ Either delete them or send out notification to the snapshot owner.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to get in touch with me:</p>
+            <form action="submit.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Reshma</p>
+        </div>
+    </footer>
+</body>
+</html>
